@@ -1,0 +1,24 @@
+footer {
+    background-color: #5005a5;
+    color: white;
+    width: 100%;   
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+footer #lista-rodape ul, footer #icones-rodape ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+footer #lista-rodape ul li , footer #icones-rodape ul li {
+    padding: 10px;
+}
+
+footer #icones-rodape img {
+    width: 50px;
+}
