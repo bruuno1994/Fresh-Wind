@@ -19,6 +19,16 @@ footer #lista-rodape ul li , footer #icones-rodape ul li {
     padding: 10px;
 }
 
+footer #lista-rodape ul li a , footer #icones-rodape ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+footer #lista-rodape ul li a:hover , footer #icones-rodape ul li a:hover {
+    color: black;
+    text-decoration: none;
+}
+
 footer #icones-rodape img {
     width: 50px;
 }
