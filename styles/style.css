@@ -64,6 +64,6 @@ h1 {
 }
 
 #conteudo {
-    height: calc(100vh - (145px + 74px));
+    height: calc(100% - (145px - 110px));
     padding: 5px;
 }
