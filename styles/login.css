@@ -1,14 +1,48 @@
 #login {
     height: calc(100vh - (145px - 110px));
     padding: 5px;
+
 }
 
 #form {
-    border: 1px solid black;
+    border: 1px solid #AC58FA;
     border-radius: 10px;
-    width: 250px;
-    height: 200px;
+    width: 300px;
+    height: 225px;
     padding: 10px;
     margin: 0 auto;
     box-shadow: 6px 6px 4px gray;
+    display: grid;
+    place-content: center;
+}
+
+input[type=email], input[type=password] {
+    border-color: #AC58FA;
+    height: 31px;
+    border-radius: 10px;
+}
+
+#botoes {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+button {
+    border-color: #AC58FA;
+    width: 100px;
+    padding: 5px;
+    cursor: pointer;
+    font-size: medium;
+    border-radius: 10px;
+}
+
+button:hover {
+    color: #AC58FA;
+    background-color: black;
+    width: 100px;
+    padding: 5px;
+    cursor: pointer;
+    font-size: medium;
+    border-radius: 10px;
 }
