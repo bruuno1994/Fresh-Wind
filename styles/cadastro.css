@@ -4,9 +4,34 @@
 }
 
 #form {
-    border: 1px solid black;
+    border: 1px solid #AC58FA;
+    border-radius: 10px;
     width: 450px;
     height: 100%;
     margin: 0 auto;
     padding: 10px;
+}
+
+#form input[type=text], #form input[type=number], #form input[type=email] {
+    border-color: #AC58FA;
+    border-radius: 5px;
+    padding: 2px;
+}
+
+button {
+    border-color:#AC58FA;
+    width: 100px;
+    border-radius: 15px;
+    cursor: pointer;
+    font-size: medium;
+}
+
+button:hover {
+    border-color:#AC58FA;
+    background-color: black;
+    color:#AC58FA;
+    width: 100px;
+    border-radius: 15px;
+    cursor: pointer;
+    font-size: medium;
 }

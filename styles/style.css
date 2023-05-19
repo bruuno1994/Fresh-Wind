@@ -9,12 +9,15 @@ html, body {
     min-height: 100%;
 }
 
+body {
+    background-color: lightgray;
+}
+
 header #logo {
     position: absolute;
     top: 0;
     left: 0;
 }
-
 
 #navegacao {
     height: 145px;
@@ -64,6 +67,14 @@ h1 {
 }
 
 #conteudo {
+    width: 80%;
     height: calc(100% - (145px - 110px));
     padding: 5px;
+    margin: 0 auto;
+}
+
+#imagens {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }

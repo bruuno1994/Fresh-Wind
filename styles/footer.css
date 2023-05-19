@@ -2,7 +2,7 @@ footer {
     bottom: 0;
     background-color: #5005a5;
     color: white;
-    width: 100%;   
+    width: 100%;
     text-align: center;
     display: flex;
     align-items: center;
@@ -17,7 +17,7 @@ footer #lista-rodape ul, footer #icones-rodape ul {
 }
 
 footer #lista-rodape ul li , footer #icones-rodape ul li {
-    padding: 10px;
+    padding: 5px;
 }
 
 footer #lista-rodape ul li a , footer #icones-rodape ul li a {
@@ -32,4 +32,12 @@ footer #lista-rodape ul li a:hover , footer #icones-rodape ul li a:hover {
 
 footer #icones-rodape img {
     width: 50px;
+}
+
+#separador {
+    border: 1px solid white;
+    border-radius: 10px;
+    height: 50px;
+    width: 2px;
+    margin: 50px 0px;
 }
