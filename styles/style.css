@@ -70,7 +70,8 @@ h1 {
     width: 80%;
     height: calc(100% - (145px - 110px));
     padding: 5px;
-    margin: 0 auto;
+    margin: 30px auto;
+    position: relative;
 }
 
 #imagens {
